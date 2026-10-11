@@ -1,0 +1,17 @@
+# Local secrets / configuration
+js/supabase/supabase-config.js
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
