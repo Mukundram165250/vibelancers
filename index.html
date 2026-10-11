@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5ef">
+  <meta name="description" content="Discover independent talent and useful local services with Vibelancers, built for Sri Lankan talent.">
+  <title>Vibelancers — Find your people</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/supabase/service-discovery.js"></script>
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <div class="announcement"><span class="announcement-dot"></span> Built for Sri Lankan talent <span class="announcement-divider">/</span> Made for the next big thing</div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Vibelancers home"><span class="brand-mark">v.</span><span>vibelancers<span class="brand-period">.</span></span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#discover">Explore services</a><a href="#how-it-works">How it works</a><a href="#why-vibelancers">Why Vibelancers</a>
+    </nav>
+    <a class="header-cta" href="#discover">Find your vibe <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> YOUR NEXT COLLAB STARTS HERE</div>
+        <h1>Good work starts<br>with the right <span class="highlight-word">vibe<span class="highlight-spark">✳</span></span></h1>
+        <p class="hero-description">Meet independent talent, discover useful services, and turn that “we should do this” into something real.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#discover">Explore the talent <span>↘</span></a><a class="text-link" href="#how-it-works">See how it works <span>→</span></a></div>
+        <div class="hero-note"><span class="avatar-stack"><i>M</i><i>S</i><i>A</i></span><span>A new space for local talent to grow.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of creative collaboration">
+        <div class="art-topline"><span>GOOD PEOPLE. GOOD WORK.</span><span>LK / 001</span></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="art-sun"></div><div class="art-star star-one">✳</div><div class="art-star star-two">✳</div>
+        <div class="art-card card-top"><span class="mini-icon">✦</span><span><b>Big idea?</b><small>Make it happen.</small></span></div>
+        <div class="art-center"><span class="center-small">FIND YOUR</span><strong>PEOPLE<span>.</span></strong><span class="center-bottom">CREATE SOMETHING GOOD ↗</span></div>
+        <div class="art-card card-bottom"><span class="online-dot"></span><span><b>Local talent</b><small>Real skills. Fresh energy.</small></span></div>
+        <div class="art-caption">A LITTLE LESS SEARCHING.<br>A LOT MORE MAKING.</div>
+      </div>
+    </section>
+
+    <section class="discover-section section-wrap" id="discover">
+      <div class="section-heading">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span> THE GOOD STUFF</div><h2>Find the skill.<br><span>Feel the fit.</span></h2></div>
+        <p>From a fresh logo to a hand with your next project, start with what you need.</p>
+      </div>
+      <form class="search-panel" id="search-form" role="search">
+        <label class="search-field"><span aria-hidden="true">⌕</span><span class="sr-only">Search services</span><input id="search-input" type="search" placeholder="Try “logo design” or “math tutor”" autocomplete="off"></label>
+        <label class="category-field"><span class="sr-only">Filter by category</span><select id="category-filter"><option value="all">All categories</option><option value="Design">Design</option><option value="Technology">Technology</option><option value="Learning">Learning</option><option value="Local services">Local services</option><option value="Writing">Writing</option></select></label>
+        <button class="button button-green search-button" type="submit">Find services <span>↗</span></button>
+      </form>
+      <div class="results-meta"><span id="results-count">Discovering services…</span><span class="demo-note"><span class="demo-dot"></span> Demo preview</span></div>
+      <div id="service-grid" class="service-grid" aria-live="polite"><div class="loading-card">Finding good vibes…</div></div>
+      <p class="prototype-disclaimer">This is an early prototype. Sample listings are fictional examples, not real providers. No bookings or payments are processed here.</p>
+    </section>
+
+    <section class="how-section section-wrap" id="how-it-works">
+      <div class="eyebrow"><span class="eyebrow-line"></span> EASY DOES IT</div>
+      <div class="how-heading"><h2>Less hassle.<br><span>More done.</span></h2><p>A good collaboration should feel simple from the first hello.</p></div>
+      <div class="steps-grid">
+        <article class="step-card"><span class="step-number">01 / DISCOVER</span><div class="step-icon">⌕</div><h3>Find your match</h3><p>Explore skills and services, then narrow things down to what fits your project.</p></article>
+        <article class="step-card"><span class="step-number">02 / CONNECT</span><div class="step-icon">↗</div><h3>Talk it through</h3><p>Get clear on the scope, timing, and price before you commit to the work.</p></article>
+        <article class="step-card"><span class="step-number">03 / MAKE IT</span><div class="step-icon">✳</div><h3>Make good things</h3><p>Build something you’re proud of and help independent talent grow.</p></article>
+      </div>
+    </section>
+
+    <section class="closing-section section-wrap" id="why-vibelancers">
+      <div class="closing-star">✳</div><div class="eyebrow">THE VIBE IS THE POINT</div>
+      <h2>Good people make<br>great things happen<span>.</span></h2>
+      <p>Vibelancers is being built around local talent, clearer collaboration, and room to grow.</p>
+      <a class="button button-dark" href="https://github.com/Mukundram165250/vibelancers" target="_blank" rel="noreferrer">Follow the build <span>↗</span></a>
+      <div class="closing-scribble" aria-hidden="true">let's make it happen</div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#"><span class="brand-mark">v.</span><span>vibelancers<span class="brand-period">.</span></span></a><span>Built with ambition in Sri Lanka.</span><a href="https://github.com/Mukundram165250/vibelancers" target="_blank" rel="noreferrer">Open-source journey ↗</a></footer>
+</body>
+</html>
